@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18FF8352-B78F-4718-80C0-FA54B0AB249D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FunnyVoice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E38736A898EFB85A7F21E308490DEF8F98462D84</key>
+		<string>https://github.com/redpanda87/XcodeProjects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FunnyVoice/FunnyVoice.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E38736A898EFB85A7F21E308490DEF8F98462D84</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/redpanda87/XcodeProjects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E38736A898EFB85A7F21E308490DEF8F98462D84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E38736A898EFB85A7F21E308490DEF8F98462D84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XcodeProjects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
