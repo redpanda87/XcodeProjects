@@ -19,6 +19,9 @@ class RecordingSoundViewController: UIViewController , AVAudioRecorderDelegate {
     var audioRecorder:AVAudioRecorder!
     var recordedAudio:RecordedAudio!
     
+    
+    
+    
     override func  viewWillAppear(animated: Bool) {
         
         stopButton.hidden = true
@@ -37,7 +40,7 @@ class RecordingSoundViewController: UIViewController , AVAudioRecorderDelegate {
 
     @IBAction func stopRecordingAction(sender: UIButton) {
         
-        recordingInProgress.hidden = true
+        recordingInProgress.text = "Tap to record"
         stopButton.hidden = true
         recordButton.enabled = true
 
@@ -48,7 +51,8 @@ class RecordingSoundViewController: UIViewController , AVAudioRecorderDelegate {
     
     @IBAction func recordAudioAction(sender: UIButton) {
         recordButton.enabled = false
-        recordingInProgress.hidden = false
+        //recordingInProgress.hidden = false
+        recordingInProgress.text = "recording..."
         stopButton.hidden = false
         let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         
@@ -78,9 +82,8 @@ class RecordingSoundViewController: UIViewController , AVAudioRecorderDelegate {
         
         if(flag){
             // todo save the recorder audio
-            recordedAudio = RecordedAudio();
-            recordedAudio.filePathUrl = recorder.url
-            recordedAudio.title = recorder.url.lastPathComponent
+            
+            recordedAudio = RecordedAudio(filePathUrl: recorder.url, title: recorder.url.lastPathComponent!)
         
             // move to the next scene
         
